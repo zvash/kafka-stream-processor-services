@@ -1,0 +1,9 @@
+2023-03-01 17:39:49 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.6 with PID 79403 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-01 17:39:49 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 17:39:49 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.058 seconds (process running for 2.365)
+2023-03-01 17:39:49 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-01 17:39:49 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 17:39:49 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome
+2023-03-01 17:39:49 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 17:39:49 [pool-1-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: at lacinia arcu sed feugiat Spring lacus lacinia feugiat quis
+2023-03-01 17:39:59 [pool-1-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: arcu a odio feugiat sed feugiat commodo Kafka feugiat lacus in at ullamcorper

@@ -2,6 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>twitter-to-kafka-service</module>
+        <module>app-config-data</module>
+        <module>kafka</module>
+        <module>common-config</module>
+    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -15,13 +21,56 @@
     <description>Microservices demo project for Spring Boot</description>
     <packaging>pom</packaging>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <spring-boot.version>3.0.3</spring-boot.version>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <twitter4j.version>4.0.7</twitter4j.version>
+        <lombok.version>1.18.26</lombok.version>
+        <avro.version>1.11.1</avro.version>
+        <spring-retry.version>2.0.0</spring-retry.version>
+        <kafka-avro-serializer.version>7.3.2</kafka-avro-serializer.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>confluence</id>
+            <url>https://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
+            <!--LOCAL-->
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>app-config-data</artifactId>
+                <version>${version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>common-config</artifactId>
+                <version>${version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>kafka-model</artifactId>
+                <version>${version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>kafka-admin</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>kafka-producer</artifactId>
+                <version>${version}</version>
+            </dependency>
+
+            <!--REMOTE-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
@@ -33,6 +82,74 @@
                 <version>${spring-boot.version}</version>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>org.twitter4j</groupId>
+                <artifactId>twitter4j-stream</artifactId>
+                <version>${twitter4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>${spring-boot.version}</version>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.retry</groupId>
+                <artifactId>spring-retry</artifactId>
+                <version>${spring-retry.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-webflux</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.confluent/kafka-avro-serializer -->
+            <dependency>
+                <groupId>io.confluent</groupId>
+                <artifactId>kafka-avro-serializer</artifactId>
+                <version>${kafka-avro-serializer.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>io.swagger</groupId>
+                        <artifactId>swagger-annotations</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>io.swagger</groupId>
+                        <artifactId>swagger-core</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -44,7 +161,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <release>11</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
         </plugins>

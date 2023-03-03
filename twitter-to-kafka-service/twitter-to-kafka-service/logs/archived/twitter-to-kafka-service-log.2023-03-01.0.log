@@ -1,0 +1,50 @@
+2023-03-01 21:09:32 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-01 21:09:32 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests
+2023-03-01 21:09:33 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.6 with PID 10773 (started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service)
+2023-03-01 21:09:33 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 21:09:33 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.788 seconds (process running for 1.918)
+2023-03-01 21:09:33 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-01 21:09:33 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 21:09:33 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome
+2023-03-01 21:09:33 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 21:09:33 [pool-1-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: euismod metus in vestibulum Kafka metus at ante
+2023-03-01 23:37:44 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-01 23:37:44 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests
+2023-03-01 23:37:44 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.6 with PID 1118 (started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service)
+2023-03-01 23:37:44 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 23:37:45 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.71 seconds (process running for 1.795)
+2023-03-01 23:37:45 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-01 23:37:45 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:37:45 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome
+2023-03-01 23:37:45 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:37:45 [pool-1-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: quis sed a lacus commodo tempor Elasticsearch non metus at feugiat dictum
+2023-03-01 23:41:20 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-01 23:41:20 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests
+2023-03-01 23:41:20 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.6 with PID 3494 (started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service)
+2023-03-01 23:41:20 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 23:41:21 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.674 seconds (process running for 1.749)
+2023-03-01 23:41:21 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-01 23:41:21 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:41:21 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome
+2023-03-01 23:41:21 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:41:21 [pool-1-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: metus ullamcorper at a a quis Microservices feugiat a lacus at
+2023-03-01 23:44:29 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-01 23:44:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests
+2023-03-01 23:44:30 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.6 with PID 5465 (started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service)
+2023-03-01 23:44:30 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 23:44:30 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.714 seconds (process running for 1.804)
+2023-03-01 23:44:30 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-01 23:44:30 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:44:30 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome
+2023-03-01 23:44:30 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:44:30 [pool-1-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: tempor ante lacinia a ante in euismod lacus Kafka odio tempor vestibulum feugiat ullamcorper lacus dictum
+2023-03-01 23:46:11 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-01 23:46:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests
+2023-03-01 23:46:12 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 17.0.6 with PID 6582 (started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service)
+2023-03-01 23:46:12 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 23:46:12 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 1.038 seconds (process running for 2.076)
+2023-03-01 23:46:12 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-01 23:46:12 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:46:12 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome
+2023-03-01 23:46:12 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-01 23:46:12 [pool-1-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: dictum lacinia arcu quis metus quis non in Java ullamcorper arcu tempor arcu arcu tempor
