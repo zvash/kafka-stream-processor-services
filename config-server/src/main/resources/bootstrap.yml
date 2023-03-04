@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zvash/spring-cloud-config-server-repository
+          clone-on-start: true
+          username: zvash
+          password: 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
+          default-label: master
+      fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: springCloud_Pwd!

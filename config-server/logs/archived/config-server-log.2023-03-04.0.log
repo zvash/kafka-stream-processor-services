@@ -1,0 +1,828 @@
+2023-03-04 19:44:12 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 19:44:12 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 51329 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 19:44:12 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 19:44:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 19:44:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 19:44:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 19:44:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 19:44:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 19:44:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 19:44:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1352 ms
+2023-03-04 19:44:14 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 19:44:14 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 19:44:14 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 19:44:14 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 19:45:46 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 19:45:46 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 52300 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 19:45:46 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 19:45:47 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 19:45:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 19:45:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 19:45:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 19:45:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 19:45:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 19:45:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+2023-03-04 19:45:48 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 19:45:48 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 19:45:48 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 19:45:48 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 19:53:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 19:53:44 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 57214 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 19:53:44 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 19:53:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 19:53:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 19:53:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 19:53:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 19:53:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 19:53:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 19:53:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1331 ms
+2023-03-04 19:53:46 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 19:53:46 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 19:53:46 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 19:53:46 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 19:58:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 19:58:35 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 60145 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 19:58:35 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 19:58:36 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 19:58:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 19:58:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 19:58:36 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 19:58:36 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 19:58:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 19:58:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1332 ms
+2023-03-04 19:58:37 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 19:58:37 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 19:58:37 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 19:58:37 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:02:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:02:44 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 62724 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:02:44 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:02:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:02:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:02:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:02:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:02:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:02:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:02:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1299 ms
+2023-03-04 20:02:46 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:02:46 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:02:46 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:02:46 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:03:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:03:56 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 63475 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:03:56 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:03:57 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:03:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:03:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:03:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:03:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:03:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:03:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1305 ms
+2023-03-04 20:03:58 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:03:58 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:03:58 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:03:58 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:09:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:09:37 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 66998 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:09:37 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:09:38 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:09:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:09:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:09:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:09:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:09:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:09:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1321 ms
+2023-03-04 20:09:39 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:09:39 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:09:39 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:09:39 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:10:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:10:02 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 67320 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:10:02 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:10:03 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:10:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:10:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:10:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:10:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:10:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:10:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1588 ms
+2023-03-04 20:10:04 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:10:04 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:10:04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:10:04 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:11:36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:11:36 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 68329 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:11:36 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:11:37 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:11:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:11:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:11:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:11:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:11:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:11:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1283 ms
+2023-03-04 20:11:38 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:11:38 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:11:38 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:11:38 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:15:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:15:19 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 70594 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:15:19 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:15:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:15:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:15:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:15:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:15:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:15:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:15:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1387 ms
+2023-03-04 20:15:21 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:15:21 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:15:21 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:15:21 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:15:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:15:32 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 70705 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:15:32 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:15:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:15:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:15:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:15:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:15:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:15:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:15:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1045 ms
+2023-03-04 20:15:34 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:15:34 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:15:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:15:34 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:15:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:15:54 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 70921 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:15:54 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:15:55 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:15:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:15:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:15:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:15:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:15:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:15:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1112 ms
+2023-03-04 20:15:56 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:15:56 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:15:56 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:15:56 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:16:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:16:13 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 71137 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:16:13 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:16:14 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:16:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:16:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:16:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:16:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:16:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:16:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1059 ms
+2023-03-04 20:16:15 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:16:15 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:16:15 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:16:15 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:17:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:17:07 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 71673 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:17:07 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:17:08 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:17:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:17:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:17:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:17:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:17:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:17:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1069 ms
+2023-03-04 20:17:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:17:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:17:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:17:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:24:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:24:41 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 76313 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:24:41 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:24:42 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:24:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:24:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:24:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:24:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:24:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:24:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1315 ms
+2023-03-04 20:24:43 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:24:43 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:24:43 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:24:43 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:32:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:32:30 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 81114 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:32:30 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:32:31 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:32:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:32:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:32:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:32:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:32:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:32:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1317 ms
+2023-03-04 20:32:31 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:32:31 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:32:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:32:31 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:36:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:36:38 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 83671 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:36:38 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:36:38 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:36:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:36:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:36:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:36:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:36:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:36:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1319 ms
+2023-03-04 20:36:39 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:36:39 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:36:39 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:36:39 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:36:53 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:36:53 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 83784 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:36:53 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:36:54 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:36:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:36:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:36:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:36:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:36:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:36:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1071 ms
+2023-03-04 20:36:54 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:36:54 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:36:54 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:36:54 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:37:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:37:41 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 84319 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:37:41 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:37:42 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:37:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:37:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:37:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:37:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:37:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:37:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1106 ms
+2023-03-04 20:37:42 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:37:42 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:37:42 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:37:42 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:37:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:37:51 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 84431 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:37:51 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:37:52 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:37:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:37:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:37:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:37:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:37:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:37:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1085 ms
+2023-03-04 20:37:53 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2023-03-04 20:37:53 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:37:53 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:37:53 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2023-03-04 20:39:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:39:55 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 85610 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:39:55 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:39:56 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:39:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:39:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:39:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:39:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:39:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:39:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1330 ms
+2023-03-04 20:39:58 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Exception caught during execution of fetch command
+2023-03-04 20:39:58 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-04 20:39:58 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-04 20:39:58 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: Exception caught during execution of fetch command
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1752)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at xyz.gouril.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of fetch command
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:252)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:656)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:361)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:282)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1798)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1748)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.NotSupportedException: URI not supported: git:///Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:527)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:397)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:276)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:244)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:214)
+	... 24 common frames omitted
+2023-03-04 20:40:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:40:07 [main] INFO  x.g.m.d.config.server.ConfigServer - Starting ConfigServer using Java 17.0.6 with PID 85830 (/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server/target/classes started by admin in /Users/admin/Documents/EventDeriventMicroservices/microservices-demo)
+2023-03-04 20:40:07 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:40:08 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f32b3b6c-615c-36c2-a938-4f89f835bf22
+2023-03-04 20:40:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:40:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:40:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:40:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:40:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:40:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1047 ms
+2023-03-04 20:40:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:40:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-03-04 20:40:09 [main] INFO  x.g.m.d.config.server.ConfigServer - Started ConfigServer in 1.957 seconds (process running for 2.584)
+2023-03-04 20:42:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-03-04 20:42:12 [main] INFO  x.g.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-03-04 20:42:12 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c6fca72d-0557-3220-ab26-313671b3cdb2
+2023-03-04 20:42:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-03-04 20:42:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:42:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-04 20:42:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04 20:42:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-04 20:42:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1049 ms
+2023-03-04 20:42:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-03-04 20:42:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-03-04 20:42:13 [main] INFO  x.g.m.d.config.server.ConfigServer - Started ConfigServer in 2.714 seconds (process running for 3.569)
+2023-03-04 20:52:34 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-04 20:52:34 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-04 20:52:34 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2023-03-04 20:52:38 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Could not refresh default label main
+org.springframework.cloud.config.server.environment.NoSuchLabelException: No such label: main
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:312)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:261)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:144)
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:62)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:195)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:178)
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:82)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75)
+	at io.micrometer.observation.Observation.observe(Observation.java:559)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75)
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:131)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.defaultLabelIncludeOrigin(EnvironmentController.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.defaultLabelIncludeOrigin(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref main cannot be resolved
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:224)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:466)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:305)
+	... 72 common frames omitted
+2023-03-04 20:52:38 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Will try to refresh master label instead.
+2023-03-04 20:52:38 [http-nio-8888-exec-1] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Could not merge remote for master remote: null
+2023-03-04 20:52:38 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/config-client-twitter_to_kafka.yml]' via location 'file:/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/'
+2023-03-04 20:52:38 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/config-client.yml]' via location 'file:/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/'
+2023-03-04 20:54:44 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Could not refresh default label main
+org.springframework.cloud.config.server.environment.NoSuchLabelException: No such label: main
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:312)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:261)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:144)
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:62)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:195)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:178)
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:82)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75)
+	at io.micrometer.observation.Observation.observe(Observation.java:559)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75)
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:131)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.defaultLabelIncludeOrigin(EnvironmentController.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.defaultLabelIncludeOrigin(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref main cannot be resolved
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:224)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:466)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:305)
+	... 72 common frames omitted
+2023-03-04 20:54:44 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Will try to refresh master label instead.
+2023-03-04 20:54:44 [http-nio-8888-exec-3] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Could not merge remote for master remote: null
+2023-03-04 20:54:44 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/config-client-twitter_to_kafka.yml]' via location 'file:/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/'
+2023-03-04 20:54:44 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/config-client.yml]' via location 'file:/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/config-server-repository/'
