@@ -8,10 +8,12 @@ spring:
           uri: https://github.com/zvash/spring-cloud-config-server-repository
           clone-on-start: true
           username: zvash
-          password: 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
+          password: '{cipher}5c5daf0a3822daa5743ed9da06640e87c1d2df971c32c09c71d9a3471e2225350be0d6b7c3ca193dbad27c20f87b210ef59875c93cf0214f96e1c21ef18dc96d'
           default-label: master
       fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: '{cipher}d84ca62ac6ce980e600139adc7d0c42f7de4ba0c4c4e39a39020136312e99a84b50c18ef6708eb01f348f9390be0c993'
+encrypt:
+  key: 'Demo_Pwd!2024'
