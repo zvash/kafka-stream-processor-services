@@ -8,6 +8,8 @@
         <module>kafka</module>
         <module>common-config</module>
         <module>config-server</module>
+        <module>kafka-to-elastic-service</module>
+        <module>elastic</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -32,6 +34,8 @@
         <kafka-avro-serializer.version>7.3.2</kafka-avro-serializer.version>
         <spring-cloud.version>4.0.1</spring-cloud.version>
         <spring-cloud-dependencies.version>2022.0.1</spring-cloud-dependencies.version>
+        <elasticsearch.version>7.17.9</elasticsearch.version>
+        <elasticsearch-rest-high-level-client.version>7.17.9</elasticsearch-rest-high-level-client.version>
     </properties>
 
     <repositories>
@@ -69,7 +73,29 @@
             </dependency>
             <dependency>
                 <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>elastic-model</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>elastic-index-client</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>elastic-config</artifactId>
+                <version>${version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
                 <artifactId>kafka-producer</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xyz.gouril.microservices.demo</groupId>
+                <artifactId>kafka-consumer</artifactId>
                 <version>${version}</version>
             </dependency>
 
@@ -183,6 +209,31 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-bootstrap</artifactId>
                 <version>${spring-cloud.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-elasticsearch -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch-rest-high-level-client.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
 
