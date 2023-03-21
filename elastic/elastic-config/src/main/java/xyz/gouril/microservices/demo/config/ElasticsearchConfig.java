@@ -22,7 +22,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.util.Objects;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "xyz.gouril.microservices.demo.elastic.index.client.repository")
+@EnableElasticsearchRepositories(basePackages = "xyz.gouril.microservices.demo.elastic")
 public class ElasticsearchConfig {
 
     private final ElasticConfigData elasticConfigData;
@@ -51,7 +51,7 @@ public class ElasticsearchConfig {
         )).setRequestConfigCallback(
                 requestConfigBuilder ->
                         requestConfigBuilder
-                                .setConnectTimeout(elasticConfigData.getConnectionTimeoutMs())
+                                .setConnectTimeout(elasticConfigData.getConnectTimeoutMs())
                                 .setSocketTimeout(elasticConfigData.getSocketTimeoutMs())
         ).build();
     }

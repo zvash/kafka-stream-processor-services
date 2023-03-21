@@ -1,10 +1,10 @@
-2023-03-05 01:03:37 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
-2023-03-05 01:03:38 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
-2023-03-05 01:03:40 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=twitter-to-kafka-service,config-client, profiles=[twitter_to_kafka], label=null, version=9445bacdb9a9930fa27bec3e65db0c5bc83294d0, state=null
-2023-03-05 01:03:40 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client-twitter_to_kafka.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client.yml'}]
-2023-03-05 01:03:40 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - The following 1 profile is active: "twitter_to_kafka"
-2023-03-05 01:03:41 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=fa46abb6-73a5-31ca-a37c-6b0fcfa290d7
-2023-03-05 01:03:41 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+2023-03-16 00:08:44 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-16 00:08:44 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2023-03-16 00:08:48 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=twitter-to-kafka-service,config-client, profiles=[twitter_to_kafka], label=null, version=bd704136aadf09be8916da63a309ce9b52f4b4ed, state=null
+2023-03-16 00:08:48 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client-twitter_to_kafka.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client.yml'}]
+2023-03-16 00:08:48 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - The following 1 profile is active: "twitter_to_kafka"
+2023-03-16 00:08:49 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6162c3fd-02e8-3b0d-a16c-01b852a3fba1
+2023-03-16 00:08:49 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
 	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
 	client.dns.lookup = use_all_dns_ips
 	client.id = 
@@ -74,19 +74,23 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2023-03-05 01:03:41 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
-2023-03-05 01:03:41 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
-2023-03-05 01:03:41 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1677965621725
-2023-03-05 01:03:42 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
-2023-03-05 01:03:42 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 6.321 seconds (process running for 7.243)
-2023-03-05 01:03:42 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
-2023-03-05 01:03:42 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Creating 1 topic(s), attempt 0
-2023-03-05 01:03:42 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
-2023-03-05 01:03:43 [main] INFO  x.g.m.d.t.t.k.s.i.i.KafkaStreamInitializer - Topics with name twitter-topic is ready for operations.
-2023-03-05 01:03:43 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text euismod feugiat commodo odio commodo Elasticsearch quis tempor odio in sending to kafka topic twitter-topic
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 8099456024880533940, "id": 5495784835477993878, "text": "euismod feugiat commodo odio commodo Elasticsearch quis tempor odio in", "createdAt": 1677965623000}' to topic = 'twitter-topic'
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+2023-03-16 00:08:49 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+2023-03-16 00:08:49 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+2023-03-16 00:08:49 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1678912729735
+2023-03-16 00:08:50 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9143a067-9a01-4392-b5d8-3d0fb04b4e39
+
+2023-03-16 00:08:50 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8181
+2023-03-16 00:08:50 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 7.571 seconds (process running for 9.065)
+2023-03-16 00:08:50 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-16 00:08:50 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Creating 1 topic(s), attempt 0
+2023-03-16 00:08:50 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-03-16 00:08:51 [main] INFO  x.g.m.d.t.t.k.s.i.i.KafkaStreamInitializer - Topics with name twitter-topic is ready for operations.
+2023-03-16 00:08:51 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text ante tempor lacus quis odio lacinia Microservices tempor arcu at quis sending to kafka topic twitter-topic
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2754279367443269948, "id": 4933837763598457107, "text": "ante tempor lacus quis odio lacinia Microservices tempor arcu at quis", "createdAt": 1678912731000}' to topic = 'twitter-topic'
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
 	acks = -1
 	batch.size = 1638400
 	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
@@ -175,7 +179,7 @@
 	transactional.id = null
 	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
 
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
 	auto.register.schemas = true
 	avro.reflection.allow.null = false
 	avro.remove.java.properties = false
@@ -228,195 +232,187 @@
 	use.schema.id = -1
 	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
 
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
-2023-03-05 01:03:43 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1677965623496
-2023-03-05 01:03:43 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: QGDYypu5SSGtA9Bc36Rjow
-2023-03-05 01:03:43 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 18001 with epoch 0
-2023-03-05 01:03:53 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text tempor dictum at odio arcu Microservices in feugiat feugiat sending to kafka topic twitter-topic
-2023-03-05 01:03:53 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2758790817059377961, "id": 3592620984222252220, "text": "tempor dictum at odio arcu Microservices in feugiat feugiat", "createdAt": 1677965633000}' to topic = 'twitter-topic'
-2023-03-05 01:04:03 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacinia non metus ante feugiat lacinia dictum non Elasticsearch in quis in sed metus quis a sending to kafka topic twitter-topic
-2023-03-05 01:04:03 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1545795050981664637, "id": 3890386645471022912, "text": "lacinia non metus ante feugiat lacinia dictum non Elasticsearch in quis in sed metus quis a", "createdAt": 1677965643000}' to topic = 'twitter-topic'
-2023-03-05 01:04:13 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text a a arcu lacinia Java tempor lacinia at sending to kafka topic twitter-topic
-2023-03-05 01:04:13 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4509331635203240312, "id": 87634705301451344, "text": "a a arcu lacinia Java tempor lacinia at", "createdAt": 1677965653000}' to topic = 'twitter-topic'
-2023-03-05 01:04:23 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text vestibulum commodo feugiat dictum vestibulum quis Java tempor dictum euismod arcu in sending to kafka topic twitter-topic
-2023-03-05 01:04:23 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1474532527419580824, "id": 614087527138529891, "text": "vestibulum commodo feugiat dictum vestibulum quis Java tempor dictum euismod arcu in", "createdAt": 1677965663000}' to topic = 'twitter-topic'
-2023-03-05 01:04:33 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text odio lacinia euismod lacinia lacinia quis Java tempor tempor feugiat quis lacinia sending to kafka topic twitter-topic
-2023-03-05 01:04:33 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1176044313006070099, "id": 6875476207523078308, "text": "odio lacinia euismod lacinia lacinia quis Java tempor tempor feugiat quis lacinia", "createdAt": 1677965673000}' to topic = 'twitter-topic'
-2023-03-05 01:04:43 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text feugiat dictum commodo non lacinia Spring commodo a quis tempor sending to kafka topic twitter-topic
-2023-03-05 01:04:43 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 7499375283491157021, "id": 7610788393952226708, "text": "feugiat dictum commodo non lacinia Spring commodo a quis tempor", "createdAt": 1677965683000}' to topic = 'twitter-topic'
-2023-03-05 01:04:53 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text sed in commodo Microservices euismod quis sending to kafka topic twitter-topic
-2023-03-05 01:04:53 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1777958563869190103, "id": 1373897050590816637, "text": "sed in commodo Microservices euismod quis", "createdAt": 1677965693000}' to topic = 'twitter-topic'
-2023-03-05 01:05:03 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text at arcu a vestibulum Spring at quis odio sending to kafka topic twitter-topic
-2023-03-05 01:05:03 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3866226238068561967, "id": 2398256544951101362, "text": "at arcu a vestibulum Spring at quis odio", "createdAt": 1677965703000}' to topic = 'twitter-topic'
-2023-03-05 01:05:13 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacinia tempor in tempor Spring ante commodo sending to kafka topic twitter-topic
-2023-03-05 01:05:13 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 6108994985717859934, "id": 4137863017365306659, "text": "lacinia tempor in tempor Spring ante commodo", "createdAt": 1677965713000}' to topic = 'twitter-topic'
-2023-03-05 01:05:23 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text tempor tempor non Microservices tempor at sending to kafka topic twitter-topic
-2023-03-05 01:05:23 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 5274735507188144991, "id": 3164179006713357894, "text": "tempor tempor non Microservices tempor at", "createdAt": 1677965723000}' to topic = 'twitter-topic'
-2023-03-05 01:05:33 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text non lacinia dictum at Microservices dictum odio sending to kafka topic twitter-topic
-2023-03-05 01:05:33 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 8223474982595933477, "id": 3825212266523989814, "text": "non lacinia dictum at Microservices dictum odio", "createdAt": 1677965733000}' to topic = 'twitter-topic'
-2023-03-05 01:05:43 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text metus dictum euismod odio at Spring ante dictum lacus sending to kafka topic twitter-topic
-2023-03-05 01:05:44 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2565275730719590168, "id": 3982339835367543173, "text": "metus dictum euismod odio at Spring ante dictum lacus", "createdAt": 1677965743000}' to topic = 'twitter-topic'
-2023-03-05 01:05:54 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text in at sed commodo commodo at at Kafka feugiat lacus vestibulum ullamcorper at euismod sending to kafka topic twitter-topic
-2023-03-05 01:05:54 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1578873374291930560, "id": 7902511765995104316, "text": "in at sed commodo commodo at at Kafka feugiat lacus vestibulum ullamcorper at euismod", "createdAt": 1677965754000}' to topic = 'twitter-topic'
-2023-03-05 01:06:04 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text odio a lacus in at vestibulum metus a Elasticsearch lacus quis metus at metus commodo dictum sending to kafka topic twitter-topic
-2023-03-05 01:06:04 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2707026822302084717, "id": 4337195950601114161, "text": "odio a lacus in at vestibulum metus a Elasticsearch lacus quis metus at metus commodo dictum", "createdAt": 1677965764000}' to topic = 'twitter-topic'
-2023-03-05 01:06:14 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacinia tempor quis euismod ullamcorper Microservices ullamcorper sed euismod non sending to kafka topic twitter-topic
-2023-03-05 01:06:14 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2252747643213791297, "id": 5175625491227260829, "text": "lacinia tempor quis euismod ullamcorper Microservices ullamcorper sed euismod non", "createdAt": 1677965774000}' to topic = 'twitter-topic'
-2023-03-05 01:06:24 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text in lacinia in lacus at euismod Kafka lacus odio arcu vestibulum sending to kafka topic twitter-topic
-2023-03-05 01:06:24 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1126650862564482270, "id": 8090383848853786770, "text": "in lacinia in lacus at euismod Kafka lacus odio arcu vestibulum", "createdAt": 1677965784000}' to topic = 'twitter-topic'
-2023-03-05 01:06:34 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text ante at at feugiat arcu tempor Spring ullamcorper metus a metus odio sending to kafka topic twitter-topic
-2023-03-05 01:06:34 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3686530078498206777, "id": 6784571582539863, "text": "ante at at feugiat arcu tempor Spring ullamcorper metus a metus odio", "createdAt": 1677965794000}' to topic = 'twitter-topic'
-2023-03-05 01:06:44 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text sed dictum ante at tempor vestibulum euismod Microservices euismod commodo vestibulum commodo non quis sending to kafka topic twitter-topic
-2023-03-05 01:06:44 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2390387627212068803, "id": 2410936391328564480, "text": "sed dictum ante at tempor vestibulum euismod Microservices euismod commodo vestibulum commodo non quis", "createdAt": 1677965804000}' to topic = 'twitter-topic'
-2023-03-05 01:06:54 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text at quis at lacinia arcu vestibulum Java at at quis euismod sending to kafka topic twitter-topic
-2023-03-05 01:06:54 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 814940664901905672, "id": 5447959006425224394, "text": "at quis at lacinia arcu vestibulum Java at at quis euismod", "createdAt": 1677965814000}' to topic = 'twitter-topic'
-2023-03-05 01:07:04 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text commodo tempor at sed ante lacus Elasticsearch metus quis lacinia euismod lacinia sending to kafka topic twitter-topic
-2023-03-05 01:07:04 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1159592674485471143, "id": 1897413400207982822, "text": "commodo tempor at sed ante lacus Elasticsearch metus quis lacinia euismod lacinia", "createdAt": 1677965824000}' to topic = 'twitter-topic'
-2023-03-05 01:07:14 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text euismod in sed non Microservices euismod euismod sending to kafka topic twitter-topic
-2023-03-05 01:07:14 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4769554266144793181, "id": 692309112506038394, "text": "euismod in sed non Microservices euismod euismod", "createdAt": 1677965834000}' to topic = 'twitter-topic'
-2023-03-05 01:07:24 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text vestibulum metus feugiat in ullamcorper feugiat Java quis lacus sed metus sending to kafka topic twitter-topic
-2023-03-05 01:07:24 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1855411458224136799, "id": 6205737421989407700, "text": "vestibulum metus feugiat in ullamcorper feugiat Java quis lacus sed metus", "createdAt": 1677965844000}' to topic = 'twitter-topic'
-2023-03-05 01:07:34 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text feugiat a ante vestibulum dictum lacus Microservices vestibulum tempor at feugiat sending to kafka topic twitter-topic
-2023-03-05 01:07:34 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1853208064617808615, "id": 9082355363050504438, "text": "feugiat a ante vestibulum dictum lacus Microservices vestibulum tempor at feugiat", "createdAt": 1677965854000}' to topic = 'twitter-topic'
-2023-03-05 01:07:44 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text dictum lacinia non lacinia vestibulum quis lacus Kafka sed a euismod lacus at sending to kafka topic twitter-topic
-2023-03-05 01:07:44 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1322302628287582096, "id": 2650019739255102283, "text": "dictum lacinia non lacinia vestibulum quis lacus Kafka sed a euismod lacus at", "createdAt": 1677965864000}' to topic = 'twitter-topic'
-2023-03-05 01:07:54 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text at vestibulum metus dictum odio lacinia Spring sed feugiat odio lacinia sending to kafka topic twitter-topic
-2023-03-05 01:07:54 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2101703138573970443, "id": 7214623690493048654, "text": "at vestibulum metus dictum odio lacinia Spring sed feugiat odio lacinia", "createdAt": 1677965874000}' to topic = 'twitter-topic'
-2023-03-05 01:08:04 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text euismod vestibulum arcu euismod Microservices euismod euismod tempor sending to kafka topic twitter-topic
-2023-03-05 01:08:04 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 8288009855443823819, "id": 1210277040591736045, "text": "euismod vestibulum arcu euismod Microservices euismod euismod tempor", "createdAt": 1677965884000}' to topic = 'twitter-topic'
-2023-03-05 01:08:14 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text dictum at tempor commodo tempor at Microservices at at commodo in tempor sending to kafka topic twitter-topic
-2023-03-05 01:08:14 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 7000347568986222728, "id": 755325033346557377, "text": "dictum at tempor commodo tempor at Microservices at at commodo in tempor", "createdAt": 1677965894000}' to topic = 'twitter-topic'
-2023-03-05 01:08:24 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text metus commodo a dictum Kafka at euismod lacus sending to kafka topic twitter-topic
-2023-03-05 01:08:24 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1629858135367822071, "id": 5625233511171636690, "text": "metus commodo a dictum Kafka at euismod lacus", "createdAt": 1677965904000}' to topic = 'twitter-topic'
-2023-03-05 01:08:34 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text ullamcorper odio lacus a ante Microservices ullamcorper euismod euismod sending to kafka topic twitter-topic
-2023-03-05 01:08:34 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1193441793105276144, "id": 3215158245404844974, "text": "ullamcorper odio lacus a ante Microservices ullamcorper euismod euismod", "createdAt": 1677965914000}' to topic = 'twitter-topic'
-2023-03-05 01:08:42 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
-2023-03-05 01:08:44 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text quis non sed ante Elasticsearch at lacinia sending to kafka topic twitter-topic
-2023-03-05 01:08:44 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3955147962457179528, "id": 6084523712229303879, "text": "quis non sed ante Elasticsearch at lacinia", "createdAt": 1677965924000}' to topic = 'twitter-topic'
-2023-03-05 01:08:54 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacinia vestibulum feugiat feugiat at lacinia a Kafka a arcu ullamcorper euismod euismod a sending to kafka topic twitter-topic
-2023-03-05 01:08:54 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 6014602652523031427, "id": 889569092120674532, "text": "lacinia vestibulum feugiat feugiat at lacinia a Kafka a arcu ullamcorper euismod euismod a", "createdAt": 1677965934000}' to topic = 'twitter-topic'
-2023-03-05 01:09:00 [SpringApplicationShutdownHook] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Closing kafka producer!
-2023-03-05 01:09:00 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2023-03-05 01:09:00 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
-2023-03-05 01:09:00 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2023-03-05 01:09:00 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
-2023-03-05 01:09:00 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
-2023-03-05 01:09:00 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
-2023-03-05 01:09:00 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
-2023-03-05 01:09:00 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2023-03-05 01:09:00 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
-2023-03-05 03:26:03 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
-2023-03-05 03:26:03 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
-2023-03-05 03:26:03 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Connect Timeout Exception on Url - http://localhost:8888. Will try the next url if available
-2023-03-05 03:26:03 [main] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/twitter-to-kafka-service,config-client/twitter_to_kafka": Connection refused
-2023-03-05 03:26:03 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - The following 1 profile is active: "twitter_to_kafka"
-2023-03-05 03:26:04 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=24500e7e-f0d1-3c7c-9ab6-cf1b94ae47bd
-2023-03-05 03:26:05 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'kafkaStreamInitializer' defined in file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service/target/classes/xyz/gouril/microservices/demo/twitter/to/kafka/service/init/impl/KafkaStreamInitializer.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'kafkaAdminClient' defined in file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/kafka/kafka-admin/target/classes/xyz/gouril/microservices/demo/kafka/admin/client/KafkaAdminClient.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'adminClient' defined in class path resource [xyz/gouril/microservices/demo/kafka/admin/config/KafkaAdminConfig.class]: Failed to instantiate [org.apache.kafka.clients.admin.AdminClient]: Factory method 'adminClient' threw exception with message: null
-2023-03-05 03:26:05 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+2023-03-16 00:08:51 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1678912731913
+2023-03-16 00:08:51 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: D9fFG0KnQ8-xXd9rWNNGIA
+2023-03-16 00:08:52 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 74000 with epoch 0
+2023-03-16 00:09:02 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text odio sed ante feugiat ante Kafka quis dictum sed in sending to kafka topic twitter-topic
+2023-03-16 00:09:02 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2289436006308127532, "id": 5187939470332155104, "text": "odio sed ante feugiat ante Kafka quis dictum sed in", "createdAt": 1678912742000}' to topic = 'twitter-topic'
+2023-03-16 00:09:12 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text tempor sed sed quis ullamcorper dictum non Spring ante at tempor non commodo sending to kafka topic twitter-topic
+2023-03-16 00:09:12 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 87090110975540939, "id": 3561314752337837004, "text": "tempor sed sed quis ullamcorper dictum non Spring ante at tempor non commodo", "createdAt": 1678912752000}' to topic = 'twitter-topic'
+2023-03-16 00:09:22 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacus commodo non non arcu dictum Java lacinia in euismod a vestibulum sending to kafka topic twitter-topic
+2023-03-16 00:09:22 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 6902511498957907276, "id": 5823249982141946525, "text": "lacus commodo non non arcu dictum Java lacinia in euismod a vestibulum", "createdAt": 1678912762000}' to topic = 'twitter-topic'
+2023-03-16 00:09:32 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text arcu sed ante ullamcorper odio metus dictum Elasticsearch commodo euismod odio dictum commodo ante sending to kafka topic twitter-topic
+2023-03-16 00:09:32 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 5434197154012233547, "id": 3211771435745379461, "text": "arcu sed ante ullamcorper odio metus dictum Elasticsearch commodo euismod odio dictum commodo ante", "createdAt": 1678912772000}' to topic = 'twitter-topic'
+2023-03-16 00:09:42 [SpringApplicationShutdownHook] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Closing kafka producer!
+2023-03-16 00:09:42 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2023-03-16 00:09:42 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-03-16 00:09:42 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-03-16 00:09:42 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-03-16 00:09:42 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text at feugiat euismod odio vestibulum ante in sed Microservices sed ullamcorper vestibulum dictum at non a sending to kafka topic twitter-topic
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 5170583238061211630, "id": 6470708667967284617, "text": "at feugiat euismod odio vestibulum ante in sed Microservices sed ullamcorper vestibulum dictum at non a", "createdAt": 1678912782000}' to topic = 'twitter-topic'
+2023-03-16 00:09:42 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-2
+	compression.type = snappy
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2023-03-05 03:26:05 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'kafkaStreamInitializer' defined in file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service/target/classes/xyz/gouril/microservices/demo/twitter/to/kafka/service/init/impl/KafkaStreamInitializer.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'kafkaAdminClient' defined in file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/kafka/kafka-admin/target/classes/xyz/gouril/microservices/demo/kafka/admin/client/KafkaAdminClient.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'adminClient' defined in class path resource [xyz/gouril/microservices/demo/kafka/admin/config/KafkaAdminConfig.class]: Failed to instantiate [org.apache.kafka.clients.admin.AdminClient]: Factory method 'adminClient' threw exception with message: null
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1345)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
-	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
-	at xyz.gouril.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:30)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kafkaStreamInitializer' defined in file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/twitter-to-kafka-service/target/classes/xyz/gouril/microservices/demo/twitter/to/kafka/service/init/impl/KafkaStreamInitializer.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'kafkaAdminClient' defined in file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/kafka/kafka-admin/target/classes/xyz/gouril/microservices/demo/kafka/admin/client/KafkaAdminClient.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'adminClient' defined in class path resource [xyz/gouril/microservices/demo/kafka/admin/config/KafkaAdminConfig.class]: Failed to instantiate [org.apache.kafka.clients.admin.AdminClient]: Factory method 'adminClient' threw exception with message: null
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1345)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
-	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kafkaAdminClient' defined in file [/Users/admin/Documents/EventDeriventMicroservices/microservices-demo/kafka/kafka-admin/target/classes/xyz/gouril/microservices/demo/kafka/admin/client/KafkaAdminClient.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'adminClient' defined in class path resource [xyz/gouril/microservices/demo/kafka/admin/config/KafkaAdminConfig.class]: Failed to instantiate [org.apache.kafka.clients.admin.AdminClient]: Factory method 'adminClient' threw exception with message: null
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1345)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
-	... 33 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminClient' defined in class path resource [xyz/gouril/microservices/demo/kafka/admin/config/KafkaAdminConfig.class]: Failed to instantiate [org.apache.kafka.clients.admin.AdminClient]: Factory method 'adminClient' threw exception with message: null
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1325)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
-	... 47 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.kafka.clients.admin.AdminClient]: Factory method 'adminClient' threw exception with message: null
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
-	... 61 common frames omitted
-Caused by: java.lang.NullPointerException: null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
-	at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1105)
-	at java.base/java.util.Map.of(Map.java:1353)
-	at xyz.gouril.microservices.demo.kafka.admin.config.KafkaAdminConfig.adminClient(KafkaAdminConfig.java:24)
-	at xyz.gouril.microservices.demo.kafka.admin.config.KafkaAdminConfig$$SpringCGLIB$$0.CGLIB$adminClient$0(<generated>)
-	at xyz.gouril.microservices.demo.kafka.admin.config.KafkaAdminConfig$$SpringCGLIB$$2.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at xyz.gouril.microservices.demo.kafka.admin.config.KafkaAdminConfig$$SpringCGLIB$$0.adminClient(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
-	... 62 common frames omitted
-2023-03-05 03:40:53 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
-2023-03-05 03:40:53 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
-2023-03-05 03:40:56 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=twitter-to-kafka-service,config-client, profiles=[twitter_to_kafka], label=null, version=9445bacdb9a9930fa27bec3e65db0c5bc83294d0, state=null
-2023-03-05 03:40:56 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client-twitter_to_kafka.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client.yml'}]
-2023-03-05 03:40:56 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - The following 1 profile is active: "twitter_to_kafka"
-2023-03-05 03:40:57 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0f7f745b-b686-36ce-a1ab-6978db7da801
-2023-03-05 03:40:57 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+2023-03-16 00:09:42 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-03-16 00:09:42 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	auto.register.schemas = true
+	avro.reflection.allow.null = false
+	avro.remove.java.properties = false
+	avro.use.logical.type.converters = false
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.cache.expiry.buffer.seconds = 300
+	bearer.auth.client.id = null
+	bearer.auth.client.secret = null
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.identity.pool.id = null
+	bearer.auth.issuer.endpoint.url = null
+	bearer.auth.logical.cluster = null
+	bearer.auth.scope = null
+	bearer.auth.scope.claim.name = scope
+	bearer.auth.sub.claim.name = sub
+	bearer.auth.token = [hidden]
+	context.name.strategy = class io.confluent.kafka.serializers.context.NullContextNameStrategy
+	id.compatibility.strict = true
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	normalize.schemas = false
+	proxy.host = 
+	proxy.port = -1
+	schema.format = null
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.engine.factory.class = null
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.certificate.chain = null
+	schema.registry.ssl.keystore.key = null
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLSv1.3
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.certificates = null
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://localhost:8081]
+	use.latest.version = false
+	use.schema.id = -1
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2023-03-16 00:09:42 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-2] Instantiated an idempotent producer.
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+2023-03-16 00:09:42 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1678912782819
+2023-03-16 00:09:42 [kafka-producer-network-thread | producer-2] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-2] Cluster ID: D9fFG0KnQ8-xXd9rWNNGIA
+2023-03-16 00:09:42 [kafka-producer-network-thread | producer-2] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-2] ProducerId set to 74001 with epoch 0
+2023-03-16 00:16:21 [main] WARN  o.s.c.a.AnnotationTypeMapping - Support for convention-based annotation attribute overrides is deprecated and will be removed in Spring Framework 6.1. Please annotate the following attributes in @org.springframework.retry.annotation.EnableRetry with appropriate @AliasFor declarations: [proxyTargetClass]
+2023-03-16 00:16:21 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2023-03-16 00:16:24 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=twitter-to-kafka-service,config-client, profiles=[twitter_to_kafka], label=null, version=bd704136aadf09be8916da63a309ce9b52f4b4ed, state=null
+2023-03-16 00:16:24 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client-twitter_to_kafka.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zvash/spring-cloud-config-server-repository/config-client.yml'}]
+2023-03-16 00:16:24 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - The following 1 profile is active: "twitter_to_kafka"
+2023-03-16 00:16:25 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6162c3fd-02e8-3b0d-a16c-01b852a3fba1
+2023-03-16 00:16:25 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
 	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
 	client.dns.lookup = use_all_dns_ips
 	client.id = 
@@ -486,23 +482,23 @@ Caused by: java.lang.NullPointerException: null
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2023-03-05 03:40:57 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
-2023-03-05 03:40:57 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
-2023-03-05 03:40:57 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1677975057366
-2023-03-05 03:40:57 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+2023-03-16 00:16:25 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+2023-03-16 00:16:25 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+2023-03-16 00:16:25 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1678913185470
+2023-03-16 00:16:25 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
 
-Using generated security password: 3060f0e4-6967-403c-9343-536a30fa25e0
+Using generated security password: fe79f98c-26a2-4759-a68b-55e11f7f0fef
 
-2023-03-05 03:40:58 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
-2023-03-05 03:40:58 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 5.776 seconds (process running for 6.654)
-2023-03-05 03:40:58 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
-2023-03-05 03:40:58 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Creating 1 topic(s), attempt 0
-2023-03-05 03:40:58 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
-2023-03-05 03:40:59 [main] INFO  x.g.m.d.t.t.k.s.i.i.KafkaStreamInitializer - Topics with name twitter-topic is ready for operations.
-2023-03-05 03:40:59 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text tempor in ante odio lacinia arcu at commodo Java at in lacus tempor commodo ullamcorper sending to kafka topic twitter-topic
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4282854285323226850, "id": 4098431872295565828, "text": "tempor in ante odio lacinia arcu at commodo Java at in lacus tempor commodo ullamcorper", "createdAt": 1677975059000}' to topic = 'twitter-topic'
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+2023-03-16 00:16:26 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8181
+2023-03-16 00:16:26 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 5.694 seconds (process running for 6.847)
+2023-03-16 00:16:26 [main] INFO  x.g.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started!
+2023-03-16 00:16:26 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Creating 1 topic(s), attempt 0
+2023-03-16 00:16:26 [main] INFO  x.g.m.d.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-03-16 00:16:26 [main] INFO  x.g.m.d.t.t.k.s.i.i.KafkaStreamInitializer - Topics with name twitter-topic is ready for operations.
+2023-03-16 00:16:26 [main] INFO  x.g.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Start to mock twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-03-16 00:16:26 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text quis metus arcu odio at commodo at in Spring lacinia feugiat odio non ullamcorper at sending to kafka topic twitter-topic
+2023-03-16 00:16:26 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 6715406553904454327, "id": 2974276111606848749, "text": "quis metus arcu odio at commodo at in Spring lacinia feugiat odio non ullamcorper at", "createdAt": 1678913186000}' to topic = 'twitter-topic'
+2023-03-16 00:16:26 [pool-3-thread-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
 	acks = -1
 	batch.size = 1638400
 	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
@@ -591,7 +587,7 @@ Using generated security password: 3060f0e4-6967-403c-9343-536a30fa25e0
 	transactional.id = null
 	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
 
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+2023-03-16 00:16:26 [pool-3-thread-1] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
 	auto.register.schemas = true
 	avro.reflection.allow.null = false
 	avro.remove.java.properties = false
@@ -644,25 +640,37 @@ Using generated security password: 3060f0e4-6967-403c-9343-536a30fa25e0
 	use.schema.id = -1
 	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
 
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
-2023-03-05 03:40:59 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1677975059629
-2023-03-05 03:40:59 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 24000 with epoch 0
-2023-03-05 03:40:59 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: QGDYypu5SSGtA9Bc36Rjow
-2023-03-05 03:41:10 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text vestibulum tempor odio non commodo dictum Spring lacinia in ante non sending to kafka topic twitter-topic
-2023-03-05 03:41:10 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4927606431866556528, "id": 4401991482936538191, "text": "vestibulum tempor odio non commodo dictum Spring lacinia in ante non", "createdAt": 1677975070000}' to topic = 'twitter-topic'
-2023-03-05 03:41:20 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text in a non feugiat ullamcorper ante Elasticsearch metus non arcu lacus sending to kafka topic twitter-topic
-2023-03-05 03:41:20 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4150169641777404714, "id": 1578287603590425330, "text": "in a non feugiat ullamcorper ante Elasticsearch metus non arcu lacus", "createdAt": 1677975080000}' to topic = 'twitter-topic'
-2023-03-05 03:41:30 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacus arcu metus commodo lacus Spring metus vestibulum at sending to kafka topic twitter-topic
-2023-03-05 03:41:30 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 2749012840071595179, "id": 8412568419866361237, "text": "lacus arcu metus commodo lacus Spring metus vestibulum at", "createdAt": 1677975090000}' to topic = 'twitter-topic'
-2023-03-05 03:41:33 [SpringApplicationShutdownHook] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Closing kafka producer!
-2023-03-05 03:41:33 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2023-03-05 03:41:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
-2023-03-05 03:41:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2023-03-05 03:41:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
-2023-03-05 03:41:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
-2023-03-05 03:41:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
-2023-03-05 03:41:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
-2023-03-05 03:41:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2023-03-05 03:41:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-03-16 00:16:27 [pool-3-thread-1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-03-16 00:16:27 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+2023-03-16 00:16:27 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+2023-03-16 00:16:27 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1678913187043
+2023-03-16 00:16:27 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 74002 with epoch 0
+2023-03-16 00:16:27 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: D9fFG0KnQ8-xXd9rWNNGIA
+2023-03-16 00:16:37 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text tempor sed vestibulum sed at commodo Elasticsearch tempor lacus a commodo sending to kafka topic twitter-topic
+2023-03-16 00:16:37 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4194172879105061341, "id": 5880993407650387826, "text": "tempor sed vestibulum sed at commodo Elasticsearch tempor lacus a commodo", "createdAt": 1678913197000}' to topic = 'twitter-topic'
+2023-03-16 00:16:47 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text commodo tempor quis a lacinia vestibulum Kafka feugiat at tempor arcu odio sending to kafka topic twitter-topic
+2023-03-16 00:16:47 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 156172006965804446, "id": 4865832654569451948, "text": "commodo tempor quis a lacinia vestibulum Kafka feugiat at tempor arcu odio", "createdAt": 1678913207000}' to topic = 'twitter-topic'
+2023-03-16 00:16:57 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text in at non tempor Spring lacus vestibulum sending to kafka topic twitter-topic
+2023-03-16 00:16:57 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4339418642719638845, "id": 3901611762976693845, "text": "in at non tempor Spring lacus vestibulum", "createdAt": 1678913217000}' to topic = 'twitter-topic'
+2023-03-16 00:17:07 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text a commodo ullamcorper feugiat tempor metus Elasticsearch in metus metus quis at sending to kafka topic twitter-topic
+2023-03-16 00:17:07 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 8424862940085087286, "id": 3169490550221673507, "text": "a commodo ullamcorper feugiat tempor metus Elasticsearch in metus metus quis at", "createdAt": 1678913227000}' to topic = 'twitter-topic'
+2023-03-16 00:17:17 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacinia ullamcorper metus at odio dictum quis dictum Kafka a arcu a arcu commodo non tempor sending to kafka topic twitter-topic
+2023-03-16 00:17:17 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 7919346237861722101, "id": 2216979768961976621, "text": "lacinia ullamcorper metus at odio dictum quis dictum Kafka a arcu a arcu commodo non tempor", "createdAt": 1678913237000}' to topic = 'twitter-topic'
+2023-03-16 00:17:27 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text quis quis vestibulum sed ante at Spring arcu euismod quis vestibulum sending to kafka topic twitter-topic
+2023-03-16 00:17:27 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3913947389752394460, "id": 7371075990348393383, "text": "quis quis vestibulum sed ante at Spring arcu euismod quis vestibulum", "createdAt": 1678913247000}' to topic = 'twitter-topic'
+2023-03-16 00:17:37 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text tempor vestibulum arcu Microservices vestibulum arcu sending to kafka topic twitter-topic
+2023-03-16 00:17:37 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 182367840014368716, "id": 2925435840254199722, "text": "tempor vestibulum arcu Microservices vestibulum arcu", "createdAt": 1678913257000}' to topic = 'twitter-topic'
+2023-03-16 00:17:47 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text quis tempor metus lacus ante lacinia Elasticsearch non metus lacinia ullamcorper sending to kafka topic twitter-topic
+2023-03-16 00:17:47 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 7203648750408624355, "id": 8574499908512027361, "text": "quis tempor metus lacus ante lacinia Elasticsearch non metus lacinia ullamcorper", "createdAt": 1678913267000}' to topic = 'twitter-topic'
+2023-03-16 00:17:57 [pool-3-thread-1] INFO  x.g.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text lacinia at feugiat tempor sed sed sed odio Kafka ullamcorper vestibulum a dictum feugiat metus sending to kafka topic twitter-topic
+2023-03-16 00:17:57 [pool-3-thread-1] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Sending message = '{"userId": 7082925036330229640, "id": 7015547422094161684, "text": "lacinia at feugiat tempor sed sed sed odio Kafka ullamcorper vestibulum a dictum feugiat metus", "createdAt": 1678913277000}' to topic = 'twitter-topic'
+2023-03-16 00:18:02 [SpringApplicationShutdownHook] INFO  x.g.m.d.k.p.s.i.TwitterKafkaProducer - Closing kafka producer!
+2023-03-16 00:18:02 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2023-03-16 00:18:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-03-16 00:18:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-03-16 00:18:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-03-16 00:18:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2023-03-16 00:18:02 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-03-16 00:18:02 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-03-16 00:18:02 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-03-16 00:18:02 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed

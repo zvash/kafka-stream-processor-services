@@ -40,7 +40,7 @@ public class ElasticsearchConfig1 extends AbstractElasticsearchConfiguration {
                 )).setRequestConfigCallback(
                         requestConfigBuilder ->
                                 requestConfigBuilder
-                                        .setConnectTimeout(elasticConfigData.getConnectionTimeoutMs())
+                                        .setConnectTimeout(elasticConfigData.getConnectTimeoutMs())
                                         .setSocketTimeout(elasticConfigData.getSocketTimeoutMs())
                 ).build()
         ).setApiCompatibilityMode(true).build();
